@@ -58,7 +58,7 @@ def start():
             print("<3 Attacking {0}:{1} | Sent: {2}".format(str(ip), int(port), xx))
         except:
             s.close()
-            print('Rabbit Is Attacking ' +ip)
+            print('Rabbit Is Attacking ' +ip +str(bb))
 
 for x in range(thread):
     thred = threading.Thread(target=start)
